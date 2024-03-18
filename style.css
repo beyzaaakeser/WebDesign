@@ -1,10 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-.photoSlider {
-  height: 600px;
+
+:root {
+  --bgc: #f2f2f2;
+  --border: #2a3035;
+  --red: rgb(253, 61, 61);
 }
 
 body {
   padding-top: 50px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+}
+
+.photoSlider {
+  height: 600px;
+}
+
+.about {
+  background-color: var(--bgc);
+}
+
+.hr {
+  border: none;
+  border-top: 2px solid var(--red);
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.heart {
+  color: var(--red);
+  position: relative;
+  top: -50px;
+  font-size: 40px;
+  border: 10px solid var(--bgc);
+  background-color: var(--bgc);
 }
