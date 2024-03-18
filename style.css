@@ -27,11 +27,38 @@ body {
   margin: 25px auto;
 }
 
+.heart-gray {
+    color: var(--red);
+    position: relative;
+    top: -50px;
+    font-size: 40px;
+    border: 10px solid var(--bgc);
+    background-color: var(--bgc);
+  
+}
+
+
+.team {
+    background-color: white;
+}
+
+
 .heart {
-  color: var(--red);
-  position: relative;
-  top: -50px;
-  font-size: 40px;
-  border: 10px solid var(--bgc);
-  background-color: var(--bgc);
+    color: var(--red);
+    position: relative;
+    top: -50px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+  
+}
+.card{
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover{
+
+    transform: scale(1.1);
+
 }
