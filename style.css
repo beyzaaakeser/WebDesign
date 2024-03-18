@@ -5,7 +5,9 @@
   --border: #2a3035;
   --red: rgb(253, 61, 61);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
   padding-top: 50px;
   font-family: "Raleway", sans-serif;
