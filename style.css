@@ -14,6 +14,8 @@ body {
 
 .photoSlider {
   height: 600px;
+  object-fit: cover;
+    object-position: center;
 }
 
 .about {
@@ -27,10 +29,10 @@ body {
   margin: 25px auto;
 }
 
-.heart-gray {
+.about-gray {
   color: var(--red);
   position: relative;
-  top: -50px;
+  top: -60px;
   font-size: 40px;
   border: 10px solid var(--bgc);
   background-color: var(--bgc);
@@ -73,4 +75,21 @@ body {
 .figure:hover {
   opacity: 0.7;
   transition: all 0.3s;
+}
+
+.contact {
+  background-color: white;
+}
+
+.info-white {
+  color: var(--red);
+  position: relative;
+  top: -50px;
+  font-size: 35px;
+  border: 10px solid white;
+  background-color: white;
+}
+
+textarea {
+  resize: none;
 }
